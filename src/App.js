@@ -48,6 +48,7 @@ const App = () => {
 
   return (
     <div className='App'>
+      <h2>Vegetable Calculat🍅r</h2>
       <div className='calculator'>
         <div className='display'>
           {result ? <span>({result})</span> : ''} {calc || '0'}
